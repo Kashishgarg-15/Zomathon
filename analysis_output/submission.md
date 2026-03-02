@@ -690,9 +690,9 @@ Below are **actual model predictions on held-out test data** — not hand-crafte
 - Even when the top recommendation wasn't the exact item added, it's contextually appropriate (garlic bread with pizza)
 
 
-# 8. Limitations & Honest Assessment
+# 8. Limitations & Future Improvements
 
-We believe a strong submission acknowledges where it falls short. Here's what we know could be better:
+Every system has areas for growth. Here are the current limitations and how we plan to address them:
 
 **Data Limitations:**
 - **Single-region source data** — Our raw data comes from 6 Delhi NCR restaurants. While we augmented to simulate multi-city behavior using city-cuisine affinity datasets, the augmented cities haven't been validated with real orders from those cities. Model performance in Bangalore or Chennai is estimated, not proven.
@@ -708,11 +708,12 @@ We believe a strong submission acknowledges where it falls short. Here's what we
 - **Offline metrics only** — AUC and NDCG@10 are proxies for user satisfaction. The true test is online A/B testing with business metrics (CTR, add-to-cart rate, AOV). Strong offline != strong online.
 - **Cold-start gap** — While LLM features help (AUC=0.878 for cold-start users), there's still a gap vs. warm users (AUC=0.902). More work needed on truly zero-history users.
 
-**What we'd do with more time:**
+**Future Improvements:**
 - Collect displayed-not-clicked negatives for better training signal
 - Try larger embedding models with distillation for production
 - Build a bandit-based exploration component to handle cold-start items
 - Implement online learning with streaming feature updates
+- Multi-objective optimization balancing AOV, user satisfaction, and restaurant margin
 
 
 # 9. Technical Summary

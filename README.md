@@ -35,8 +35,7 @@
 ├── baseline_and_analysis.py            # 4 baselines + business impact analysis
 ├── inference_benchmark.py              # Production latency benchmark
 ├── inference.py                        # Production inference engine
-├── generate_submission.py              # Generates submission.md
-├── generate_pdf.py                     # Converts to PDF with embedded plots
+├── generate_pdf.py                     # Converts submission.md to PDF with embedded plots
 │
 ├── model_output_v3/                    # GBDT model results & plots
 ├── model_output_dcn_v2/                # DCN-v2 model results & plots
