@@ -201,6 +201,7 @@ def lgb_objective(trial):
         'boosting_type': 'gbdt',
         'verbosity': -1,
         'seed': SEED,
+        'feature_pre_filter': False,
         'learning_rate': trial.suggest_float('learning_rate', 0.01, 0.15, log=True),
         'num_leaves': trial.suggest_int('num_leaves', 31, 127),
         'max_depth': trial.suggest_int('max_depth', 5, 12),
@@ -248,6 +249,7 @@ best_lgb_params = {
     'boosting_type': 'gbdt',
     'verbosity': -1,
     'seed': SEED,
+    'feature_pre_filter': False,
     **study_lgb.best_params
 }
 
