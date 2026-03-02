@@ -102,6 +102,10 @@ is why our model outperforms static popularity baselines by +11.6% NDCG@10.
 - Soft label handling: Labels ∈ [0,1] (not just binary) due to knowledge distillation
 - Sample weighting: Original samples weighted 1.0, augmented 0.3-0.5 — ensuring real data dominates the learning signal
 
+**Final Curated Dataset: `training_data_llm.csv`**
+
+The end product of our entire data pipeline is a single file — `training_data_llm.csv` (212,880 rows × 66 columns) — which serves as the final training dataset for all our models. This file represents the culmination of every curation step: raw order parsing → feature engineering → city assignment → augmentation → LLM semantic feature generation. It contains 43 base features + 23 LLM-derived semantic features, and is the exact dataset used to train LightGBM, XGBoost, and DCN-v2. The dataset is available as `training_data_llm.zip` in our GitHub repository for full reproducibility.
+
 
 ## 2.2 Feature Engineering: 70 Features Across 7 Categories
 
