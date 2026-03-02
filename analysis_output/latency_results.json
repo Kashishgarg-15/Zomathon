@@ -1,0 +1,21 @@
+{
+  "gbdt_latency": {
+    "mean_ms": 15.579100847244263,
+    "median_ms": 14.598727226257324,
+    "p90_ms": 18.217086791992188,
+    "p95_ms": 18.815648555755615,
+    "p99_ms": 59.33343410491925,
+    "meets_sla": true,
+    "throughput_single": 64.18855682398942
+  },
+  "full_latency": {
+    "note": "DCN-v2 runs in separate PyTorch microservice",
+    "estimated_additional_ms": 30,
+    "estimated_p95_total_ms": 48.815648555755615
+  },
+  "ensemble_weights": {
+    "lgb": 0.4,
+    "xgb": 0.4,
+    "dcn": 0.2
+  }
+}

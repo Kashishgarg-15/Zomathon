@@ -1,3 +1,20 @@
 venv/
 __pycache__/
 *.txt
+
+# Large data files
+training_data_with_city.csv
+training_data_llm.csv
+augmented_training_data.csv
+user_profiles.csv
+item_attributes.csv
+copurchase_matrix.csv
+
+# Model binaries (too large for git)
+*.pkl
+*.pt
+*.bin
+*.joblib
+
+# Temp
+.ipynb_checkpoints/

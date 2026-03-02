@@ -1,0 +1,35 @@
+{
+  "final_metrics": {
+    "AUC": 0.902,
+    "NDCG@10": 0.876,
+    "Hit@10": 0.999,
+    "Prec@3": 0.411
+  },
+  "best_baseline": {
+    "name": "Co-purchase Signal",
+    "AUC": 0.755,
+    "NDCG@10": 0.785
+  },
+  "improvement": {
+    "AUC_absolute": 0.147,
+    "NDCG10_absolute": 0.091,
+    "AUC_relative_pct": 19.5,
+    "NDCG10_relative_pct": 11.6
+  },
+  "latency": {
+    "gbdt_mean_ms": 15.579100847244263,
+    "gbdt_p95_ms": 18.815648555755615,
+    "throughput_single_rps": 64.18855682398942
+  },
+  "business_impact": {
+    "aov_lift_rs": 102.57908842433424,
+    "aov_lift_pct": 23.7881879637376,
+    "annual_impact_cr": 0.37441367274882004
+  },
+  "features": {
+    "total": 70,
+    "llm_derived": 23,
+    "engineered": 9,
+    "base": 38
+  }
+}
