@@ -130,55 +130,110 @@ class SubmissionPDF(FPDF):
         self.ln(1.5)
     
     def add_table(self, headers, rows):
-        self.set_font('Helvetica', 'B', 8)
-        self.set_fill_color(0, 100, 180)
-        self.set_text_color(255, 255, 255)
-        
         n_cols = len(headers)
-        col_w = (190) / n_cols
-        
-        # Variable column widths based on content
-        if n_cols <= 3:
-            col_w = 190 / n_cols
-            widths = [col_w] * n_cols
+
+        # Column widths & font size tuned per column count
+        if n_cols == 6:
+            # Recommendation table: narrow left cols, wide rec cols
+            widths = [18, 22, 22, 43, 43, 42]
+            font_size = 6.5
+        elif n_cols <= 3:
+            widths = [190 / n_cols] * n_cols
+            font_size = 8
         elif n_cols == 4:
             widths = [50, 45, 45, 50]
+            font_size = 8
         elif n_cols == 5:
             widths = [40, 30, 35, 35, 50]
+            font_size = 8
         else:
             widths = [190 / n_cols] * n_cols
-        
-        # Adjust widths to sum to 190
+            font_size = 8
+
+        # Normalise to page width
         total = sum(widths)
         widths = [w * 190 / total for w in widths]
-        
+
+        # ── Header row ──
+        self.set_font('Helvetica', 'B', font_size)
+        self.set_fill_color(0, 100, 180)
+        self.set_text_color(255, 255, 255)
         for i, h in enumerate(headers):
             self.cell(widths[i], 5.5, clean_text(h), border=1, align='C', fill=True)
         self.ln()
-        
-        self.set_font('Helvetica', '', 8)
+
+        # ── Data rows ──
         self.set_text_color(30, 30, 30)
+        line_h = font_size * 0.55  # per-line height inside wrapped cells
+
         for row_idx, row in enumerate(rows):
-            fill = row_idx % 2 == 1
-            if fill:
+            if row_idx % 2 == 1:
                 self.set_fill_color(240, 245, 255)
             else:
                 self.set_fill_color(255, 255, 255)
-            
-            # Check for bold row (our model)
+
             is_bold = any('**' in str(c) for c in row)
             if is_bold:
-                self.set_font('Helvetica', 'B', 8)
+                self.set_font('Helvetica', 'B', font_size)
                 self.set_fill_color(230, 255, 230)
-            
-            for i, cell in enumerate(row):
-                cell_text = clean_text(str(cell))
-                self.cell(widths[i], 5.5, cell_text, border=1, align='C', fill=True)
-            self.ln()
-            
+            else:
+                self.set_font('Helvetica', '', font_size)
+
+            if n_cols >= 6:
+                self._draw_wrapped_row(row, widths, line_h)
+            else:
+                for i, cell_val in enumerate(row):
+                    cell_text = clean_text(str(cell_val))
+                    self.cell(widths[i], 5.5, cell_text, border=1, align='C', fill=True)
+                self.ln()
+
             if is_bold:
-                self.set_font('Helvetica', '', 8)
+                self.set_font('Helvetica', '', font_size)
         self.ln(1.5)
+
+    # ------------------------------------------------------------------ #
+    def _draw_wrapped_row(self, row, widths, line_h):
+        """Render one table row with word-wrapped cells."""
+        x_start = self.l_margin
+        y_start = self.get_y()
+        pad = 0.8  # inner padding each side
+
+        # 1) Compute the height each cell needs
+        cell_heights = []
+        for i, cell_val in enumerate(row):
+            txt = clean_text(str(cell_val))
+            usable_w = widths[i] - 2 * pad
+            if usable_w <= 0:
+                usable_w = 1
+            txt_w = self.get_string_width(txt)
+            n_lines = max(1, int(txt_w / usable_w) + 1)
+            cell_heights.append(n_lines * line_h)
+
+        row_h = max(5.5, max(cell_heights) + 2 * pad)
+
+        # 2) Page-break check
+        if y_start + row_h > self.h - self.b_margin:
+            self.add_page()
+            y_start = self.get_y()
+
+        # 3) Draw background + border rects, then overlay text
+        self.set_draw_color(0, 0, 0)
+        for i, cell_val in enumerate(row):
+            x = x_start + sum(widths[:i])
+            # filled rect (background + border)
+            self.rect(x, y_start, widths[i], row_h, 'DF')
+
+        for i, cell_val in enumerate(row):
+            txt = clean_text(str(cell_val))
+            x = x_start + sum(widths[:i])
+            usable_w = widths[i] - 2 * pad
+            # vertical-centre the text block
+            txt_h = cell_heights[i]
+            y_off = (row_h - txt_h) / 2
+            self.set_xy(x + pad, y_start + y_off)
+            self.multi_cell(usable_w, line_h, txt, border=0, align='C')
+
+        self.set_xy(x_start, y_start + row_h)
 
 
 def clean_text(text):
@@ -328,10 +383,23 @@ while i < len(lines):
         i += 1
         continue
     
-    # Regular text
+    # Regular text — accumulate consecutive lines into a paragraph
     text = line.strip()
     if text and text != '```':
-        pdf.body_text(clean_text(text))
+        para_lines = [text]
+        # Peek ahead: keep joining lines that are plain body text
+        while (i + 1 < len(lines)):
+            nxt = lines[i + 1]
+            nxt_s = nxt.strip()
+            # Stop at blank lines, headers, bullets, tables, code fences, hr
+            if (not nxt_s or nxt_s.startswith('#') or nxt_s.startswith('- ')
+                    or nxt_s.startswith('| ') or nxt_s == '```'
+                    or nxt_s == '---'):
+                break
+            para_lines.append(nxt_s)
+            i += 1
+        paragraph = ' '.join(para_lines)
+        pdf.body_text(clean_text(paragraph))
     
     i += 1
 
