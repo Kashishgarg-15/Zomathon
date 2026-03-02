@@ -16,5 +16,16 @@ copurchase_matrix.csv
 *.bin
 *.joblib
 
+# Old model versions (cleaned up)
+model_output/
+model_output_v2/
+model_output_dcn/
+model_output_final/
+install_st.log
+train_model.py
+train_model_v2.py
+train_dcn.py
+final_ensemble.py
+
 # Temp
 .ipynb_checkpoints/
