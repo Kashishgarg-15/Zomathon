@@ -1,0 +1,116 @@
+{
+  "phases": {
+    "phase0": {
+      "orders": 21321,
+      "users": 11607,
+      "unique_items": 244,
+      "copurchase_pairs": 1681,
+      "cold_start_users": 7713,
+      "cold_start_pct": 66.5,
+      "single_item_orders_pct": 45.4,
+      "elapsed_sec": 9.0
+    },
+    "phase1": {
+      "items_classified": 244,
+      "api_calls": 6,
+      "categories": {
+        "main": 155,
+        "side": 71,
+        "combo": 9,
+        "drink": 7,
+        "dessert": 2
+      },
+      "veg_split": {
+        "non-veg": 127,
+        "veg": 116,
+        "egg": 1
+      },
+      "roles": {
+        "anchor": 164,
+        "complement": 71,
+        "impulse": 9
+      },
+      "elapsed_sec": 63.2
+    },
+    "phase2": {
+      "avg_completeness_score": 0.453,
+      "fully_complete_orders": 3,
+      "fully_complete_pct": 0.0,
+      "needs_recommendation": 21113,
+      "needs_recommendation_pct": 99.0,
+      "missing_component_freq": {
+        "dessert": 21208,
+        "drink": 20887,
+        "side": 13946,
+        "main": 2035
+      },
+      "veg_order_split": {
+        "non-veg": 12919,
+        "veg": 8371,
+        "egg": 31
+      },
+      "elapsed_sec": 1.3
+    },
+    "phase3": {
+      "total_sequences": 38232,
+      "multi_item_orders": 11694,
+      "single_item_orders": 9627,
+      "trainable_stages": 16911,
+      "avg_stages_per_multi_order": 1.45,
+      "stage_completeness_dist": {
+        "stage_1": 0.393,
+        "stage_2": 0.448,
+        "stage_3": 0.51,
+        "stage_4": 0.544,
+        "stage_5": 0.571
+      },
+      "elapsed_sec": 1.8
+    },
+    "phase4": {
+      "total_samples": 101466,
+      "positive_samples": 16911,
+      "negative_samples": 84555,
+      "pos_neg_ratio": "1:5.0",
+      "feature_columns": 42,
+      "unique_orders": 11694,
+      "unique_candidates": 244,
+      "elapsed_sec": 9.2
+    },
+    "phase4_5": {
+      "total_samples": 212880,
+      "original_samples": 101466,
+      "item_swap_samples": 49992,
+      "collaborative_samples": 27420,
+      "soft_label_samples": 34002,
+      "positives_by_type": {
+        "collaborative": 4570,
+        "item_swap": 8332,
+        "original": 16911,
+        "soft_label": 5667
+      },
+      "total_positives": 35480,
+      "total_negatives": 177400,
+      "augmentation_multiplier": 2.1,
+      "elapsed_sec": 9.5
+    },
+    "phase5": {
+      "cities": 6,
+      "users_assigned": 11607,
+      "city_distribution": {
+        "Hyderabad": 3869,
+        "Mumbai": 2858,
+        "Delhi": 2616,
+        "Bangalore": 1070,
+        "Kolkata": 831,
+        "Pune": 363
+      },
+      "local_favorites": 33,
+      "city_item_pairs": 975,
+      "city_cuisine_pairs": 41,
+      "avg_confidence": 1.0,
+      "elapsed_sec": 7.0
+    }
+  },
+  "success": true,
+  "total_elapsed_sec": 101.6
+}

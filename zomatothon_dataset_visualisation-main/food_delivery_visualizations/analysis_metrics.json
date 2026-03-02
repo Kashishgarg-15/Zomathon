@@ -1,0 +1,62 @@
+{
+  "dataset_summary": {
+    "total_orders": 21321,
+    "delivered_orders": 21131,
+    "unique_customers": 11607,
+    "unique_restaurants": 6,
+    "unique_subzones": 8,
+    "date_range": "2024-09-01 to 2025-01-31",
+    "delivery_rate_pct": 99.11
+  },
+  "pricing": {
+    "avg_subtotal": 750.08,
+    "median_subtotal": 629.0,
+    "avg_total": 682.62,
+    "avg_discount_pct": 13.73,
+    "avg_packaging": 32.56
+  },
+  "items": {
+    "avg_items_per_order": 1.94,
+    "single_item_pct": 39.18,
+    "unique_items": 244,
+    "top_5_items": [
+      "Bageecha Pizza",
+      "Chilli Cheese Garlic Bread",
+      "Bone in Jamaican Grilled Chicken",
+      "All About Chicken Pizza",
+      "Makhani Paneer Pizza"
+    ]
+  },
+  "delivery": {
+    "avg_distance_km": 4.17,
+    "avg_kpt_min": 17.34,
+    "median_kpt_min": 16.35,
+    "avg_rider_wait_min": 4.83,
+    "correct_ready_marking_pct": 89.52
+  },
+  "customers": {
+    "avg_orders_per_customer": 1.84,
+    "repeat_customer_pct": 33.55,
+    "one_time_customer_pct": 66.45,
+    "avg_total_spend": 1253.9
+  },
+  "ratings": {
+    "rated_pct": 11.79,
+    "avg_rating": 4.36,
+    "5star_pct": 69.37
+  },
+  "suitability_scores": {
+    "cart_composition": 7,
+    "sequential_building": 2,
+    "temporal_patterns": 9,
+    "user_history": 7,
+    "co_purchase": 6,
+    "cold_start": 6,
+    "price_data": 9,
+    "restaurant_context": 8,
+    "geography": 5,
+    "meal_types": 8,
+    "overall": 6.7,
+    "note": "Complementary to Instacart - strong in pricing/restaurant/delivery, weak in sequential cart data"
+  }
+}

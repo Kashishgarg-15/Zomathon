@@ -1,0 +1,7 @@
+city,peak_meal,late_night_affinity,avg_order_value_z,cart_size_z,discount_affinity,veg_ratio,weekend_boost,top_cuisines,description
+Delhi,dinner,0.3,0.2,0.0,0.0,0.4,0.0,"{""North Indian"": 0.35, ""Pan-Indian"": 0.3, ""Mughlai"": 0.15, ""Street Food"": 0.1, ""Continental"": 0.1}","North Indian dominant, strong late-night culture, moderate-high spend"
+Mumbai,late_night,0.4,0.5,0.3,-0.2,0.45,0.2,"{""Pan-Indian"": 0.3, ""Continental"": 0.25, ""Street Food"": 0.15, ""Italian"": 0.15, ""North Indian"": 0.15}","Most diverse cuisine, highest spend, strong late-night + weekend spike"
+Bangalore,lunch,0.15,0.1,0.1,0.0,0.42,0.1,"{""Continental"": 0.3, ""Pan-Indian"": 0.25, ""Italian"": 0.2, ""North Indian"": 0.15, ""American"": 0.1}","Tech crowd, pizza/continental heavy, strong lunch ordering"
+Hyderabad,dinner,0.2,-0.2,-0.3,0.1,0.3,0.0,"{""North Indian"": 0.4, ""Pan-Indian"": 0.25, ""Mughlai"": 0.15, ""Continental"": 0.1, ""Street Food"": 0.1}","Biryani capital, non-veg dominant, single-item large portions"
+Pune,snack,0.15,-0.4,-0.2,0.4,0.45,-0.1,"{""Street Food"": 0.3, ""Pan-Indian"": 0.25, ""Continental"": 0.15, ""North Indian"": 0.15, ""American"": 0.15}","Young/student city, budget-conscious, street food + quick bites"
+Kolkata,snack,0.2,-0.1,0.0,0.15,0.35,0.1,"{""Street Food"": 0.25, ""Pan-Indian"": 0.25, ""Continental"": 0.2, ""North Indian"": 0.15, ""American"": 0.15}","Street food + Chinese crossover, evening snack culture"

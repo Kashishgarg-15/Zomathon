@@ -1,0 +1,245 @@
+item,order_frequency,total_qty_sold,restaurant,avg_bill_when_present,solo_order_count,multi_order_count,solo_order_ratio,popularity_rank,avg_price_proxy,peak_meal_period
+AAC Fried Chicken Burger,8,8,Swaad,985.125,0,8,0.0,146,332.2395833333333,late_night
+AAC Fried Paneer Burger,20,22,Swaad,786.8720000000001,1,19,0.05,121,260.09146969696974,dinner
+AAC Grilled Chicken Burger,179,210,Swaad,900.1659116022099,36,145,0.2011173184357542,56,389.4020137962099,dinner
+AAC Grilled Chicken Burger .,6,7,Swaad,804.0083333333333,1,5,0.16666666666666666,158,404.6694444444444,dinner
+AAC Grilled Paneer Burger,33,34,Swaad,768.5542424242425,6,27,0.18181818181818182,100,320.74893939393934,dinner
+AAC Saucy Fries,96,100,Swaad,696.6880208333333,21,75,0.21875,73,298.67163194444447,dinner
+AAC Signature Crisper Fries,59,66,Swaad,758.3286440677966,20,39,0.3389830508474576,79,286.192763653484,late_night
+AAC Signature Fries,99,103,Swaad,837.889494949495,6,93,0.06060606060606061,71,294.67952380952386,dinner
+AAC Signature Krispers,6,6,Swaad,907.5,1,5,0.16666666666666666,158,280.19444444444446,late_night
+AAC Special Slaw,41,47,Swaad,1028.5146341463415,0,41,0.0,92,311.54979094076657,dinner
+All About Chicken Pizza,1631,1728,Aura Pizzas,1108.8816482843138,502,1130,0.3077866339668915,3,563.3266589052287,dinner
+Angara Aloo Tuk Tuki,30,32,Swaad,890.9446666666666,1,29,0.03333333333333333,104,288.2634444444444,dinner
+Angara Boneless Grilled Chicken Breast,31,33,Tandoori Junction,1037.59375,17,15,0.5483870967741935,103,620.3177083333333,dinner
+Angara Grilled Chicken Quarter,2,2,Tandoori Junction,933.5,1,1,0.5,189,616.5,dinner
+Angara Grilled Chicken Tangdi (4pcs),2,2,Tandoori Junction,724.0,2,0,1.0,189,724.0,dinner
+Angara Grilled Paneer (8 pcs),56,59,Swaad,897.7221428571429,9,47,0.16071428571428573,82,337.4276082251082,dinner
+Angara Paneer Melt,666,725,Aura Pizzas,819.4332732732734,204,462,0.3063063063063063,17,407.7618853377186,dinner
+Angara Paneer Steak,1,1,Tandoori Junction,1098.0,0,1,0.0,215,549.0,dinner
+Angara Rice,93,107,Swaad,879.6693548387096,1,92,0.010752688172043012,74,308.4152956989247,dinner
+Angara Sauce,44,50,Swaad,923.0045454545453,1,43,0.022727272727272728,90,220.3229326544667,dinner
+Animal Fries,737,779,Swaad,750.9617639077339,240,497,0.3256445047489824,12,361.2606288363378,dinner
+Animal Fries .,25,27,Swaad,712.442,7,18,0.28,112,362.43700000000007,snack
+Atomic Veg Burger,15,21,Dilli Burger Adda,759.0666666666667,4,11,0.26666666666666666,126,322.9288888888889,dinner
+Atomic Veg Burger .,2,2,Dilli Burger Adda,270.0,2,0,1.0,189,270.0,dinner
+BC Burger,2,2,Dilli Burger Adda,517.5,1,1,0.5,189,355.0,late_night
+Bacon Pepperoni Melt,136,138,Aura Pizzas,1183.0375000000001,22,114,0.16176470588235295,60,495.52230392156855,dinner
+Bageecha Pizza,3116,3334,Aura Pizzas,1056.4370952228278,956,2163,0.306803594351733,1,538.9420984595184,dinner
+Bageecha Pizza .,3,3,Aura Pizzas,878.3333333333334,2,1,0.6666666666666666,180,559.0,dinner
+Bangin' Soya Burger,2,2,Dilli Burger Adda,410.0,1,1,0.5,189,287.5,dinner
+Bellpepper Onion Pizza,304,309,Aura Pizzas,1099.138914473684,61,243,0.20065789473684212,36,479.0387944078947,dinner
+Bone in Angara Grilled Chicken,445,475,Swaad,729.994798206278,145,301,0.3258426966292135,27,381.3851494768311,dinner
+Bone in Angara Grilled Chicken .,4,4,Swaad,522.3225,2,2,0.5,170,286.518125,dinner
+Bone in Jamaican Grilled Chicken,1631,1770,Swaad,712.8429756097561,700,940,0.4291845493562232,3,427.7896414053426,dinner
+Bone in Jamaican Grilled Chicken .,27,28,Swaad,597.7055555555555,13,14,0.48148148148148145,109,324.60462962962964,dinner
+Bone in Jamaican Grilled Chicken Quarter + Angara Rice,127,139,Swaad,620.7451968503937,59,68,0.4645669291338583,64,376.83648950131237,dinner
+Bone in Kabuli Grilled Chicken,490,537,Swaad,789.9612753036437,161,333,0.32857142857142857,26,419.9544225949489,dinner
+Bone in Peri Peri Grilled Chicken,591,622,Swaad,743.6694247038918,184,407,0.311336717428088,18,386.75051728305533,dinner
+Bone in Peri Peri Grilled Chicken .,8,10,Swaad,651.66125,4,4,0.5,146,365.74864583333334,dinner
+Bone in Smoky Bbq Grilled Chicken,735,804,Swaad,745.2186118598382,258,484,0.3510204081632653,13,410.05114218328845,dinner
+Bone in Smoky Bbq Grilled Chicken .,13,19,Swaad,529.2307692307693,10,3,0.7692307692307693,132,443.46153846153845,dinner
+Brocolli Onion Pizza,22,23,Aura Pizzas,952.5454545454545,4,18,0.18181818181818182,115,442.185606060606,dinner
+Butter Chicken Grilled Burger,4,4,Dilli Burger Adda,606.5,2,2,0.5,170,355.8333333333333,dinner
+Cafreal Sauce,28,31,Aura Pizzas,1032.590357142857,2,26,0.07142857142857142,107,253.10974072356217,dinner
+Cafreal dip,20,21,Swaad,885.05,0,20,0.0,121,229.10738095238094,dinner
+Carribean Jerk Boneless Grilled Chicken Breast,17,18,Tandoori Junction,1216.3529411764705,9,8,0.5294117647058824,124,673.6078431372548,dinner
+Carribean Jerk Grilled Chicken Quarter,10,10,Tandoori Junction,980.924,3,7,0.3,140,556.5286666666667,late_night
+Carribean Jerk Grilled Chicken Tangdi (4pcs),4,4,Tandoori Junction,876.25,3,1,0.75,170,714.0,late_night
+Carribean Jerk dip,2,2,Tandoori Junction,843.5,0,2,0.0,189,281.1666666666667,dinner
+Cheesy Garlic Bread,1155,1336,Aura Pizzas,918.6921212121212,243,912,0.21038961038961038,7,366.2774036506063,dinner
+Cheesy Veg Burger,8,8,Dilli Burger Adda,849.125,0,8,0.0,146,335.95833333333337,dinner
+Chicken 65 Boneless Grilled Chicken Breast,33,35,Tandoori Junction,936.060606060606,20,13,0.6060606060606061,100,666.6717171717171,dinner
+Chicken 65 Grilled Chicken Quarter,3,4,Tandoori Junction,1098.25,1,3,0.3333333333333333,180,624.0,dinner
+Chicken 65 Grilled Chicken Tangdi (4pcs),2,2,Tandoori Junction,699.0,2,0,1.0,189,699.0,late_night
+Chicken 69,4,4,Dilli Burger Adda,833.0,0,4,0.0,170,306.6041666666667,dinner
+Chicken Pepperoni Pizza,272,289,Aura Pizzas,1098.98375,59,213,0.21691176470588236,41,498.1823721988795,dinner
+Chicken Smashed Burger,11,12,Dilli Burger Adda,716.0954545454546,5,6,0.45454545454545453,135,353.64507575757574,dinner
+Chicken Smashed Burgers .,2,2,Dilli Burger Adda,679.0,1,1,0.5,189,339.66666666666663,dinner
+Chicken Smashed Double Burger,2,2,Dilli Burger Adda,1008.525,0,2,0.0,189,336.17499999999995,late_night
+Chilli Cheese Garlic Bread,1749,1932,Aura Pizzas,885.0541485714285,416,1334,0.23785020011435107,2,360.7000656099773,dinner
+Chilli Cheese Garlic Bread .,4,4,Aura Pizzas,1097.25,0,4,0.0,170,438.5,snack
+Chocolate Walnut Brownie,6,8,Aura Pizzas,801.04,1,5,0.16666666666666666,158,273.4827777777778,late_night
+Classic Bacon Melt Tenderloin Burger,17,17,Dilli Burger Adda,740.0,6,11,0.35294117647058826,124,390.0098039215686,dinner
+Classic Bacon Melt Tenderloin Burger .,1,1,Dilli Burger Adda,1018.0,0,1,0.0,215,339.3333333333333,dinner
+Coleslaw,28,34,Swaad,789.0732142857142,8,20,0.2857142857142857,107,303.7482142857143,dinner
+Combo For 1,2,2,Swaad,475.0,2,0,1.0,189,475.0,dinner
+Combo For 1 - Non Veg,9,12,Aura Pizzas,1039.0916666666667,1,11,0.1111111111111111,143,460.69750000000005,dinner
+Combo For 1 - Veg,9,10,Aura Pizzas,778.1166666666667,5,4,0.5555555555555556,143,566.687037037037,dinner
+Combo for 2 - Non Veg,4,4,Aura Pizzas,1315.0,4,0,1.0,170,1315.0,late_night
+Combo for 2 - Veg,1,1,Aura Pizzas,1910.0,1,0,1.0,215,1910.0,dinner
+Combo for 4 - Veg,1,1,Aura Pizzas,2440.0,1,0,1.0,215,2440.0,snack
+Cous Cous,3,3,Tandoori Junction,578.0,0,3,0.0,180,289.0,dinner
+Crushed Papad,22,27,Aura Pizzas,824.4545454545455,1,21,0.045454545454545456,115,245.90530303030303,dinner
+Desi Chicken Pepperoni Pizza,126,128,Aura Pizzas,1069.4865873015872,25,101,0.1984126984126984,65,472.4913068783069,dinner
+Desi Masala Crispers Fries,2,2,The Chicken Junction,388.0,0,2,0.0,189,129.33333333333334,dinner
+Desi Masala Fries,5,6,The Chicken Junction,507.6,0,5,0.0,165,195.3,dinner
+Desi Pepperoni Pizza,159,163,Aura Pizzas,1033.9135220125786,31,128,0.1949685534591195,57,514.6761215932914,dinner
+Dirty Grilled Paneer Burger,6,7,Dilli Burger Adda,759.0,1,5,0.16666666666666666,158,325.88888888888886,dinner
+Dirty Indian Masala Crisper Fries,2,2,Dilli Burger Adda,554.0,0,2,0.0,189,277.0,dinner
+Dirty Indian Masala Fries,10,10,Dilli Burger Adda,976.8,0,10,0.0,140,323.41833333333335,dinner
+Dirty Indian Slaw,2,2,Dilli Burger Adda,468.12,0,2,0.0,189,234.06,late_night
+Dirty Indian Soya Chunks,1,1,Dilli Burger Adda,490.0,0,1,0.0,215,245.0,snack
+Dirty Masala Fries,1,1,Dilli Burger Adda,899.0,0,1,0.0,215,299.6666666666667,dinner
+Dirty Saucy Chicken Loaded Fries,14,16,Dilli Burger Adda,736.5,5,9,0.35714285714285715,128,397.1380952380952,late_night
+Dirty Saucy Chicken Loaded Fries .,1,1,Dilli Burger Adda,910.0,0,1,0.0,215,303.3333333333333,late_night
+Dirty Saucy Fries,53,55,Dilli Burger Adda,546.8679245283018,23,30,0.4339622641509434,83,316.7641509433962,late_night
+Dynamite sauce,15,15,Swaad,639.2,0,15,0.0,126,189.42037037037034,dinner
+Fire Alarm Tenderloin Burger,1,1,Dilli Burger Adda,870.0,0,1,0.0,215,435.0,dinner
+Fried Chicken 65 Masala Boneless Bites,1,1,The Chicken Junction,560.0,1,0,1.0,215,560.0,late_night
+Fried Chicken Angara Slider,1,1,Masala Junction,380.0,1,0,1.0,215,380.0,dinner
+Fried Chicken Angara Tender,355,368,Swaad,735.6593521126761,96,259,0.2704225352112676,32,343.30162661829564,dinner
+Fried Chicken Angara Tender .,7,7,Swaad,482.14285714285717,3,4,0.42857142857142855,150,310.7142857142857,dinner
+Fried Chicken Beast AAC Burger,131,146,Swaad,835.8804580152671,22,109,0.16793893129770993,62,358.23859414758266,dinner
+Fried Chicken Beast Burger,6,6,Dilli Burger Adda,674.1666666666666,1,5,0.16666666666666666,158,339.9166666666667,dinner
+Fried Chicken Bites (Bone) - 4pcs,3,3,The Chicken Junction,360.0,3,0,1.0,180,360.0,dinner
+Fried Chicken Bites (Bone) - 8pcs,1,1,The Chicken Junction,740.0,1,0,1.0,215,740.0,dinner
+Fried Chicken Boneless Bites - 10pcs,1,1,The Chicken Junction,1107.0,0,1,0.0,215,221.4,dinner
+Fried Chicken Boneless Bites - 6pcs,7,8,The Chicken Junction,690.25,4,4,0.5714285714285714,150,332.75,late_night
+Fried Chicken Classic Tender,381,413,Swaad,764.7998441558442,131,254,0.3438320209973753,31,370.2480272108843,dinner
+Fried Chicken Classic Tender .,14,15,Swaad,990.5749999999999,2,12,0.14285714285714285,128,350.5127976190476,dinner
+Fried Chicken Classic Tenders + AAC Signature Fries,27,27,Swaad,706.0388888888889,10,17,0.37037037037037035,109,379.0317901234568,dinner
+Fried Chicken Desi Peri Peri Bites (Bone),1,1,The Chicken Junction,510.0,1,0,1.0,215,510.0,late_night
+Fried Chicken Dirty Burger,4,4,Dilli Burger Adda,686.0,0,4,0.0,170,278.4375,dinner
+Fried Chicken Ghostbuster Tender,239,249,Swaad,813.9776446280991,68,174,0.28451882845188287,48,363.0598356498873,dinner
+Fried Chicken Kabuli Tender,129,134,Swaad,834.9564615384616,21,109,0.16279069767441862,63,320.52581794871793,dinner
+Fried Chicken Kabuli Tender .,4,4,Swaad,1367.0,1,3,0.25,170,367.7291666666667,dinner
+Fried Chicken Peri Peri Tender,557,594,Swaad,748.1205861456483,184,379,0.3303411131059246,21,360.72592850094446,dinner
+Fried Chicken Peri Peri Tender .,10,10,Swaad,699.5,2,8,0.2,140,293.5333333333333,late_night
+Fried Chicken Peri Peri Tenders + Peri Peri Fries,71,76,Swaad,753.0422535211268,23,48,0.323943661971831,77,393.9335680751173,dinner
+Fried Chicken Strips,237,297,Aura Pizzas,825.3898319327731,31,207,0.1308016877637131,49,314.9996767040149,dinner
+Fried Chicken Tangdi - 2pcs,7,9,The Chicken Junction,653.3333333333334,6,3,0.8571428571428571,150,303.3333333333333,dinner
+Fried Chicken Tangdi - 4pcs,1,1,The Chicken Junction,510.0,1,0,1.0,215,510.0,late_night
+Fried Chicken Tenders,156,173,Aura Pizzas,1092.7895597484278,10,149,0.0641025641025641,58,376.9830519616652,dinner
+Fried Mushroom Burger,5,5,Dilli Burger Adda,704.4,2,3,0.4,165,363.0666666666667,late_night
+Fried Paneer Angara Slider,4,4,Masala Junction,452.5,2,2,0.5,170,313.75,dinner
+Fried Paneer Burger .,1,1,Dilli Burger Adda,518.0,0,1,0.0,215,259.0,dinner
+Garlic Aioli,250,317,Aura Pizzas,958.0781999999999,2,248,0.008,44,271.4560065165946,dinner
+GhostBuster Sauce,45,50,Swaad,836.0688888888889,0,45,0.0,88,230.31636924803595,dinner
+Grilled Chicken 69 Burger,1,1,Dilli Burger Adda,655.0,0,1,0.0,215,327.5,dinner
+Grilled Chicken Afghani Boneless Breast,14,15,Swaad,725.4457142857143,2,12,0.14285714285714285,128,265.62833333333333,dinner
+Grilled Chicken Angara Boneless Breast,22,22,Swaad,610.7272727272727,6,16,0.2727272727272727,115,317.46212121212125,dinner
+Grilled Chicken Angara Tangdi,91,100,Swaad,1009.0717582417582,20,71,0.21978021978021978,75,419.32952825745684,dinner
+Grilled Chicken Angara Tender,242,255,Swaad,763.1588429752067,65,177,0.26859504132231404,47,341.231595828414,dinner
+Grilled Chicken Angara Tender .,7,7,Swaad,699.0071428571429,0,7,0.0,150,307.7416666666667,dinner
+Grilled Chicken Angara Tenders + Salted Fries,29,30,Swaad,889.001724137931,3,26,0.10344827586206896,105,371.38879310344834,late_night
+Grilled Chicken Dirty Burger,38,45,Dilli Burger Adda,787.9763157894737,6,32,0.15789473684210525,96,366.8560307017544,late_night
+Grilled Chicken Dirty Burger .,1,2,Dilli Burger Adda,1907.0,0,1,0.0,215,476.75,snack
+Grilled Chicken Double Dirty Burger,2,2,Dilli Burger Adda,752.0,0,2,0.0,189,376.0,late_night
+Grilled Chicken Ghostbuster Tangdi,57,59,Swaad,1035.1929824561403,5,52,0.08771929824561403,80,390.2426900584796,dinner
+Grilled Chicken Jamaican Boneless Breast,39,48,Swaad,690.058717948718,16,23,0.41025641025641024,94,392.36572649572645,dinner
+Grilled Chicken Jamaican Slider,1,1,Masala Junction,380.0,1,0,1.0,215,380.0,late_night
+Grilled Chicken Jamaican Tangdi,135,141,Swaad,871.1691911764706,32,104,0.23703703703703705,61,398.8050073529412,dinner
+Grilled Chicken Jamaican Tender,579,636,Swaad,788.9580716723549,174,412,0.3005181347150259,20,374.58221916138467,dinner
+Grilled Chicken Jamaican Tender .,5,5,Swaad,873.4,0,5,0.0,165,272.62666666666667,late_night
+Grilled Chicken Peri Peri Boneless Breast,22,22,Swaad,460.04772727272723,10,12,0.45454545454545453,115,308.3719696969697,dinner
+Grilled Chicken Peri Peri Tangdi,108,116,Swaad,873.8353211009174,24,85,0.2222222222222222,69,418.9330602883355,dinner
+Grilled Chicken Peri Peri Tender,338,363,Swaad,779.7781656804734,82,256,0.24260355029585798,33,368.70705550859395,dinner
+Grilled Chicken Peri Peri Tender .,3,3,Swaad,625.0,0,3,0.0,180,312.5,late_night
+Grilled Chicken Smoky BBQ Tangdi,115,122,Swaad,867.5339130434783,27,88,0.23478260869565218,67,387.83615838509326,dinner
+Grilled Chicken Smoky BBQ Tender,387,403,Swaad,716.2587948717949,128,262,0.330749354005168,30,358.7047002442002,dinner
+Grilled Chicken Smoky BBQ Tender .,5,5,Swaad,744.8,1,4,0.2,165,310.2666666666667,late_night
+Grilled Chicken Smoky Bbq Boneless Breast,25,26,Swaad,675.08,7,18,0.28,112,323.9466666666667,dinner
+Grilled Chicken Tangdi,79,88,Aura Pizzas,1148.26375,11,69,0.13924050632911392,76,430.38455952380957,dinner
+Grilled Chicken Tangdi Jamaican + Salted Krispers,36,41,Swaad,773.9458333333333,15,21,0.4166666666666667,98,453.1069444444445,dinner
+Grilled Paneer Afghani Slider,1,1,Masala Junction,700.0,0,1,0.0,215,350.0,dinner
+Grilled Paneer Angara Slider,3,3,Masala Junction,350.0,3,0,1.0,180,350.0,dinner
+Grilled Paneer Burger,11,12,Dilli Burger Adda,1001.6409090909091,2,9,0.18181818181818182,135,385.6621212121212,dinner
+Grilled Paneer Burger .,1,2,Dilli Burger Adda,1907.0,0,1,0.0,215,476.75,snack
+Grilled Tangdis,191,267,Aura Pizzas,977.9470157068063,24,167,0.1256544502617801,54,358.82835390177013,dinner
+Grlld Masala Fries,7,8,Tandoori Junction,1091.7142857142858,1,6,0.14285714285714285,150,445.0476190476191,dinner
+Grlld Potatoes,4,4,Tandoori Junction,988.81,1,3,0.25,170,302.1608333333333,dinner
+Grlld Vegetables,7,7,Tandoori Junction,735.0,1,6,0.14285714285714285,150,332.3333333333333,dinner
+Harisa Mayo,97,112,Aura Pizzas,933.1448453608248,1,96,0.010309278350515464,72,260.20460317460316,dinner
+Harissa Mayo,37,41,Aura Pizzas,1155.3862162162163,0,37,0.0,97,272.2816489216489,dinner
+Herbed Potato,880,980,Aura Pizzas,950.2758890147226,27,856,0.03068181818181818,10,337.752647908465,dinner
+Honey Mustard sauce,8,8,Swaad,942.25,0,8,0.0,146,237.16666666666669,dinner
+Iced Green Tea - Mojito,39,47,Aura Pizzas,1036.5502564102565,0,39,0.0,94,290.0996206756207,dinner
+Iced Green Tea - Peach,46,61,Aura Pizzas,1059.3502173913043,0,46,0.0,85,289.7132498274673,dinner
+India Dynamite sauce,18,19,Swaad,878.8522222222223,0,18,0.0,123,230.94451719576716,dinner
+Indian Honey Mustard sauce,9,9,Swaad,899.7777777777778,0,9,0.0,143,219.12764550264552,dinner
+Indian Masala Cripser Fries,185,192,Aura Pizzas,894.5812972972974,9,176,0.04864864864864865,55,301.62689254709255,dinner
+Indian Masala Fries,147,161,Aura Pizzas,1069.7050340136054,6,141,0.04081632653061224,59,356.05259394233883,dinner
+Indian Pico De-Gallo,65,68,Aura Pizzas,866.3196923076923,0,65,0.0,78,234.9103738261738,dinner
+Indian Salsa,46,48,Aura Pizzas,940.7547826086957,0,46,0.0,85,273.98967344249957,dinner
+Jamaican Chicken Melt,1148,1223,Aura Pizzas,894.7233449477352,320,828,0.2787456445993031,8,429.81503265167856,dinner
+Jamaican Chicken Melt .,3,3,Aura Pizzas,568.6666666666666,2,1,0.6666666666666666,180,444.0,dinner
+Jamaican Sauce,45,46,Swaad,831.0297777777777,0,45,0.0,88,226.22916113516115,dinner
+Just Pepperoni Pide,250,265,Aura Pizzas,729.2801999999999,75,175,0.3,44,368.4757333333333,late_night
+Just Pepperoni Pizza,538,576,Aura Pizzas,1157.0136617100372,134,404,0.24907063197026022,22,555.8155877146398,dinner
+Kabuli Grilled Paneer (8 pcs),33,35,Swaad,1193.9266666666667,1,32,0.030303030303030304,100,353.7759848484848,dinner
+Korean Fried Chicken Burger,5,5,Dilli Burger Adda,948.6,0,5,0.0,165,380.0333333333333,late_night
+Korean Fried Chicken Slider,2,2,Masala Junction,574.5,1,1,0.5,189,394.75,dinner
+Loaded Chicken Pepperoni Pizza,12,12,Aura Pizzas,1470.6666666666667,1,11,0.08333333333333333,134,640.5694444444445,dinner
+Loaded Jamaican Grilled Chicken Pizza,24,25,Aura Pizzas,1223.79375,8,16,0.3333333333333333,114,654.0740277777778,dinner
+Loaded Korean Grilled Chicken Pizza,26,27,Aura Pizzas,1913.1538461538462,2,24,0.07692307692307693,111,624.5951923076923,dinner
+Loaded Pork Pepperoni Pizza,29,31,Aura Pizzas,1521.103448275862,5,24,0.1724137931034483,105,632.3316091954024,late_night
+Makhani Paneer Pizza,1451,1524,Aura Pizzas,1068.3282863041982,376,1077,0.259131633356306,5,507.21036824195147,dinner
+Makhani Paneer Pizza .,2,2,Aura Pizzas,1137.5,0,2,0.0,189,449.0,dinner
+Malai Gud Pide,220,234,Aura Pizzas,1101.9081363636365,25,195,0.11363636363636363,51,351.1381929030565,dinner
+Malvani Boneless Grilled Chicken Breast,7,7,Tandoori Junction,1316.142857142857,2,5,0.2857142857142857,150,599.7857142857143,dinner
+Malvani Grilled Chicken Quarter,2,2,Tandoori Junction,2026.5,0,2,0.0,189,525.0,dinner
+Malvani Grilled Chicken Tangdi (4pcs),1,1,Tandoori Junction,1298.0,0,1,0.0,215,649.0,dinner
+Malvani Paneer Steak,1,1,Tandoori Junction,569.0,1,0,1.0,215,569.0,dinner
+Margherita Pizza,1340,1477,Aura Pizzas,906.2077943368108,494,848,0.3686567164179104,6,463.0067877841649,dinner
+Masala Omelette Pide,46,47,Aura Pizzas,580.4782608695652,14,32,0.30434782608695654,85,308.52608695652174,dinner
+Masala Paneer Pide,675,743,Aura Pizzas,684.0088609467456,152,524,0.22518518518518518,16,301.74184999295574,dinner
+Masala Potato Pide,217,229,Aura Pizzas,822.9853456221199,36,181,0.16589861751152074,52,339.6962261356156,dinner
+Mayonnaise,41,47,Aura Pizzas,1084.9048780487803,2,39,0.04878048780487805,92,260.8887731848098,dinner
+Mint Mayonnaise,2,2,The Chicken Junction,1032.5,0,2,0.0,189,230.45,dinner
+Murgh Amritsari Garlic Bread,686,754,Aura Pizzas,736.3382823871907,216,471,0.31486880466472306,15,342.5226472701647,dinner
+Murgh Amritsari Seekh Melt,511,545,Aura Pizzas,841.4907632093934,134,377,0.2622309197651663,24,410.7226250271798,dinner
+Murgh Amritsari Seekh Pide,585,654,Aura Pizzas,667.4890085470086,149,436,0.2547008547008547,19,324.2779476733144,dinner
+Murgh Amritsari Seekh Pizza,844,877,Aura Pizzas,1111.7283786982248,266,579,0.31516587677725116,11,548.3660972104818,dinner
+Mushroom Mozzarella Melt,533,565,Aura Pizzas,894.9750281425892,121,412,0.2270168855534709,23,396.2834382798773,dinner
+Mushroom Pizza,429,452,Aura Pizzas,1185.6287179487178,87,342,0.20279720279720279,28,513.1976806526807,dinner
+Mutton Seekh Pide,278,301,Aura Pizzas,800.1877777777778,44,235,0.15827338129496402,40,346.4573775388292,dinner
+Mutton Seekh Pizza,258,271,Aura Pizzas,1235.231081081081,88,171,0.34108527131782945,43,613.4610896610897,dinner
+Mutton Smashed Burger,57,63,Dilli Burger Adda,661.1061403508772,20,37,0.3508771929824561,80,389.0850877192982,late_night
+Mutton Smashed Double Burger,3,3,Dilli Burger Adda,850.4133333333333,1,2,0.3333333333333333,180,342.8733333333333,dinner
+OG Cheese Burger,1,1,Dilli Burger Adda,958.0,0,1,0.0,215,319.3333333333333,dinner
+OG Cheese Pide,261,281,Aura Pizzas,773.1119157088123,24,237,0.09195402298850575,42,304.1664406130268,dinner
+Og Cheese Burger,2,2,Dilli Burger Adda,924.0,0,2,0.0,189,356.16666666666663,dinner
+Onion Bombs,43,45,Swaad,972.1406976744187,1,42,0.023255813953488372,91,282.5394518272425,dinner
+Onion Rings,286,295,Aura Pizzas,1106.6631118881119,11,275,0.038461538461538464,39,345.03558533133537,dinner
+Ooh Masala Fries,1,1,Masala Junction,258.0,1,0,1.0,215,258.0,dinner
+Ooh Saucy Fries,11,11,Masala Junction,364.27272727272725,9,2,0.8181818181818182,135,308.09090909090907,dinner
+Paneer 65 Paneer Steak,1,1,Tandoori Junction,1098.0,0,1,0.0,215,549.0,dinner
+Peanut Butter Chocolate Pide,107,112,Aura Pizzas,1123.725981308411,8,99,0.07476635514018691,70,347.2914037437122,dinner
+Pepperoni Garlic Bread,307,328,Aura Pizzas,846.4714332247557,52,255,0.16938110749185667,35,357.5255926529135,dinner
+Peri Peri Boneless Grilled Chicken Breast,21,21,Tandoori Junction,956.32,13,8,0.6190476190476191,119,602.1474603174603,late_night
+Peri Peri Chicken Melt,322,334,Aura Pizzas,908.8464086687306,105,218,0.32608695652173914,34,454.1643163054695,dinner
+Peri Peri Crisper Fries,505,544,Aura Pizzas,898.9662376237624,55,450,0.10891089108910891,25,316.8411582272513,dinner
+Peri Peri Crispers Fries,2,2,Masala Junction,239.0,1,1,0.5,189,171.75,dinner
+Peri Peri Fries,291,310,Aura Pizzas,1004.5009965635738,25,266,0.0859106529209622,37,345.1946615393007,dinner
+Peri Peri Fries .,14,17,Swaad,785.7142857142857,0,14,0.0,128,310.16428571428565,dinner
+Peri Peri Grilled Chicken Pizza,412,436,Aura Pizzas,1239.2246116504855,71,341,0.17233009708737865,29,511.62491225535524,dinner
+Peri Peri Grilled Chicken Quarter,1,1,Tandoori Junction,629.0,1,0,1.0,215,629.0,late_night
+Peri Peri Grilled Chicken Tangdi (4pcs),3,3,Tandoori Junction,922.0,2,1,0.6666666666666666,180,697.3333333333334,late_night
+Peri Peri Ketchup,1,1,The Chicken Junction,269.0,0,1,0.0,215,134.5,snack
+Peri Peri Krispers,7,8,Swaad,938.0,1,6,0.14285714285714285,150,380.85714285714283,late_night
+Peri Peri Paneer Melt,124,126,Aura Pizzas,905.8345967741936,19,105,0.1532258064516129,66,371.6484744623656,dinner
+Peri Peri Paneer Pizza,734,767,Aura Pizzas,1079.9580926430517,188,546,0.2561307901907357,14,499.1780310894071,dinner
+Peri Peri Sauce,13,14,Swaad,951.3115384615384,0,13,0.0,132,237.70929487179487,late_night
+Peri Peri dip,2,2,Tandoori Junction,861.12,0,2,0.0,189,307.655,dinner
+Raw Masala Lemon Shikanji,52,59,Aura Pizzas,949.5457692307692,2,50,0.038461538461538464,84,288.02380815018313,late_night
+Raw Mint Mojito Iced Tea,1,1,Dilli Burger Adda,309.53,0,1,0.0,215,103.17666666666666,snack
+Raw Peach Iced Tea,1,1,Dilli Burger Adda,309.53,0,1,0.0,215,103.17666666666666,snack
+Red Rice,6,7,Swaad,457.8333333333333,1,5,0.16666666666666666,158,229.0,dinner
+Salted Crisper Fries,216,247,Aura Pizzas,946.7198148148149,4,212,0.018518518518518517,53,311.3673601925338,dinner
+Salted Fries,250,279,Swaad,912.63344,9,241,0.036,44,323.0380395238095,dinner
+Salted Fries .,11,14,Swaad,1139.0,0,11,0.0,135,398.630303030303,dinner
+Salted Krispers,6,9,Swaad,1063.3333333333333,0,6,0.0,158,371.2916666666667,dinner
+Signature Smashed Tenderloin Burger,1,1,Dilli Burger Adda,1159.0,0,1,0.0,215,289.75,dinner
+Smoky BBQ Boneless Grilled Chicken Breast,21,22,Tandoori Junction,1022.0454545454545,13,9,0.6190476190476191,119,641.5909090909091,dinner
+Smoky BBQ Grilled Chicken Quarter,2,2,Tandoori Junction,1937.0,1,1,0.5,189,635.0,dinner
+Smoky BBQ Grilled Chicken Tangdi (4pcs),2,2,Tandoori Junction,1163.0,1,1,0.5,189,630.6666666666667,dinner
+Smoky BBQ Sauce,35,39,Swaad,921.0954285714286,0,35,0.0,99,241.26598185941043,dinner
+Smoky BBQ dip,2,2,Tandoori Junction,269.0,0,2,0.0,189,109.58333333333334,dinner
+Spinach Sumac Pide,291,306,Aura Pizzas,921.6395532646047,35,256,0.12027491408934708,37,343.0409901816397,dinner
+Tenderloin Smashed Burger,11,11,Dilli Burger Adda,723.1818181818181,3,8,0.2727272727272727,135,321.22727272727275,dinner
+Tenderloin Smashed Double Burger,2,2,Dilli Burger Adda,734.0,1,1,0.5,189,401.33333333333337,dinner
+Tipsy Tiger Fresh Lime Soda,231,299,Aura Pizzas,998.5443290043289,16,215,0.06926406926406926,50,317.6573090646727,dinner
+Tipsy Tiger Ginger Ale,113,135,Aura Pizzas,1128.6958407079644,1,112,0.008849557522123894,68,322.3423515687852,dinner
+Tripple Cheese Pizza,910,959,Aura Pizzas,968.3902305159165,290,621,0.31868131868131866,9,494.6306243816557,dinner
+Very Peri Tenderloin Burger,2,2,Dilli Burger Adda,859.0,0,2,0.0,189,333.66666666666663,late_night

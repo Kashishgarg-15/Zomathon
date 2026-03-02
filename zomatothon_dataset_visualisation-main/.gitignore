@@ -1,0 +1,33 @@
+# Virtual environment
+venv/
+.venv/
+env/
+.env
+
+# Instacart dataset (too large for GitHub)
+instakart dataset/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Notebook helper script
+create_notebook.py

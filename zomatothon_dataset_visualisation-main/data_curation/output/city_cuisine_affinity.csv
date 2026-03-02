@@ -1,0 +1,42 @@
+city,cuisine,count,share,rank
+Bangalore,Pan-Indian,1380,0.4093,1
+Bangalore,Continental,808,0.2396,2
+Bangalore,North Indian,695,0.2061,3
+Bangalore,Italian,431,0.1278,4
+Bangalore,American,46,0.0136,5
+Bangalore,Street Food,12,0.0036,6
+Delhi,Pan-Indian,4691,0.4019,1
+Delhi,Continental,2503,0.2145,2
+Delhi,North Indian,2252,0.193,3
+Delhi,Italian,2017,0.1728,4
+Delhi,American,156,0.0134,5
+Delhi,Street Food,49,0.0042,6
+Delhi,Korean,2,0.0002,7
+Delhi,Mughlai,1,0.0001,8
+Hyderabad,Pan-Indian,4038,0.3788,1
+Hyderabad,North Indian,3133,0.2939,2
+Hyderabad,Continental,1753,0.1645,3
+Hyderabad,Italian,1555,0.1459,4
+Hyderabad,American,130,0.0122,5
+Hyderabad,Street Food,48,0.0045,6
+Hyderabad,Chinese,2,0.0002,7
+Kolkata,Pan-Indian,824,0.3595,1
+Kolkata,Continental,561,0.2448,2
+Kolkata,North Indian,511,0.2229,3
+Kolkata,Italian,337,0.147,4
+Kolkata,American,46,0.0201,5
+Kolkata,Street Food,13,0.0057,6
+Mumbai,Pan-Indian,3832,0.3979,1
+Mumbai,North Indian,2040,0.2118,2
+Mumbai,Continental,1854,0.1925,3
+Mumbai,Italian,1647,0.171,4
+Mumbai,American,186,0.0193,5
+Mumbai,Street Food,68,0.0071,6
+Mumbai,Korean,3,0.0003,7
+Mumbai,South Indian,1,0.0001,8
+Pune,Pan-Indian,242,0.3987,1
+Pune,North Indian,174,0.2867,2
+Pune,Continental,89,0.1466,3
+Pune,Italian,77,0.1269,4
+Pune,American,13,0.0214,5
+Pune,Street Food,12,0.0198,6
