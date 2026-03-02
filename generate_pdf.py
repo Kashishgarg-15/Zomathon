@@ -39,41 +39,41 @@ class SubmissionPDF(FPDF):
     
     def section_title(self, title, level=1):
         if level == 1:
-            self.set_font('Helvetica', 'B', 14)
+            self.set_font('Helvetica', 'B', 15)
             self.set_text_color(0, 100, 180)
-            self.ln(4)
+            self.ln(3)
             self.cell(0, 8, title, new_x="LMARGIN", new_y="NEXT")
             self.set_draw_color(0, 100, 180)
             self.line(10, self.get_y(), 200, self.get_y())
-            self.ln(3)
+            self.ln(2)
         elif level == 2:
-            self.set_font('Helvetica', 'B', 11)
+            self.set_font('Helvetica', 'B', 12)
             self.set_text_color(40, 40, 40)
-            self.ln(3)
+            self.ln(2)
             self.cell(0, 7, title, new_x="LMARGIN", new_y="NEXT")
             self.ln(1)
         elif level == 3:
-            self.set_font('Helvetica', 'B', 9.5)
+            self.set_font('Helvetica', 'B', 10.5)
             self.set_text_color(60, 60, 60)
-            self.ln(2)
+            self.ln(1.5)
             self.cell(0, 6, title, new_x="LMARGIN", new_y="NEXT")
-            self.ln(1)
+            self.ln(0.5)
     
     def body_text(self, text):
-        self.set_font('Helvetica', '', 8.5)
+        self.set_font('Helvetica', '', 9.5)
         self.set_text_color(30, 30, 30)
         self.set_x(10)
-        self.multi_cell(190, 4.5, text)
-        self.ln(1)
+        self.multi_cell(190, 5, text)
+        self.ln(0.5)
     
     def bullet_item(self, text):
-        self.set_font('Helvetica', '', 8.5)
+        self.set_font('Helvetica', '', 9.5)
         self.set_text_color(30, 30, 30)
         self.set_x(10)
-        self.multi_cell(190, 4.5, '  - ' + text)
+        self.multi_cell(190, 5, '  - ' + text)
     
     def code_block(self, text):
-        self.set_font('Courier', '', 7)
+        self.set_font('Courier', '', 7.5)
         self.set_text_color(30, 30, 30)
         self.set_fill_color(245, 245, 245)
         lines = text.split('\n')
@@ -126,11 +126,11 @@ class SubmissionPDF(FPDF):
             # Truncate very long lines
             if len(line) > 95:
                 line = line[:92] + '...'
-            self.cell(0, 3.5, '  ' + line, new_x="LMARGIN", new_y="NEXT", fill=True)
-        self.ln(2)
+            self.cell(0, 3.8, '  ' + line, new_x="LMARGIN", new_y="NEXT", fill=True)
+        self.ln(1.5)
     
     def add_table(self, headers, rows):
-        self.set_font('Helvetica', 'B', 7.5)
+        self.set_font('Helvetica', 'B', 8)
         self.set_fill_color(0, 100, 180)
         self.set_text_color(255, 255, 255)
         
@@ -153,10 +153,10 @@ class SubmissionPDF(FPDF):
         widths = [w * 190 / total for w in widths]
         
         for i, h in enumerate(headers):
-            self.cell(widths[i], 5, clean_text(h), border=1, align='C', fill=True)
+            self.cell(widths[i], 5.5, clean_text(h), border=1, align='C', fill=True)
         self.ln()
         
-        self.set_font('Helvetica', '', 7.5)
+        self.set_font('Helvetica', '', 8)
         self.set_text_color(30, 30, 30)
         for row_idx, row in enumerate(rows):
             fill = row_idx % 2 == 1
@@ -168,17 +168,17 @@ class SubmissionPDF(FPDF):
             # Check for bold row (our model)
             is_bold = any('**' in str(c) for c in row)
             if is_bold:
-                self.set_font('Helvetica', 'B', 7.5)
+                self.set_font('Helvetica', 'B', 8)
                 self.set_fill_color(230, 255, 230)
             
             for i, cell in enumerate(row):
                 cell_text = clean_text(str(cell))
-                self.cell(widths[i], 5, cell_text, border=1, align='C', fill=True)
+                self.cell(widths[i], 5.5, cell_text, border=1, align='C', fill=True)
             self.ln()
             
             if is_bold:
-                self.set_font('Helvetica', '', 7.5)
-        self.ln(2)
+                self.set_font('Helvetica', '', 8)
+        self.ln(1.5)
 
 
 def clean_text(text):
@@ -324,7 +324,7 @@ while i < len(lines):
     if line.strip() == '---':
         pdf.set_draw_color(200, 200, 200)
         pdf.line(10, pdf.get_y(), 200, pdf.get_y())
-        pdf.ln(3)
+        pdf.ln(1.5)
         i += 1
         continue
     
